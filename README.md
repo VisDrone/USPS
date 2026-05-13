@@ -5,5 +5,5 @@ Codes for "Unknown Support Prototype Set for Open Set Recognition". The correspo
 
 
 * **Notes**：<br><br>Sensitive hyperparameters include: training epoch of cgan, adversarial training round, and epoch per round.
- 
-If you have any problems, feel free to contact me (jiangggss AT tju.edu.cn). Have fun and may it inspire your own idea :-)
+ If you find overfitting on some datasets, we observed the same issue. To address this, we use early-stop based on the validation set. 
+ If you have any problems, feel free to contact me (jiangggss AT tju.edu.cn). Have fun and may it inspire your own idea :-)
